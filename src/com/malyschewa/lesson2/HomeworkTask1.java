@@ -16,3 +16,4 @@ public class HomeworkTask1 {
         System.out.println(result);
     }
 }
+
