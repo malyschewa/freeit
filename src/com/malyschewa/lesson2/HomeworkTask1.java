@@ -9,7 +9,7 @@ public class HomeworkTask1 {
         System.out.print("Enter first number: ");
         double numbOne = scanner.nextDouble();
 
-        System.out.print("Enter first number: ");
+        System.out.print("Enter second number: ");
         double numbTwo = scanner.nextDouble();
 
         String result = numbOne > numbTwo ? "First number is greater than second" : "First number is less than second";
