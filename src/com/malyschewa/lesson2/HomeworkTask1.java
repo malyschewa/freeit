@@ -7,10 +7,10 @@ public class HomeworkTask1 {
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите первое число: ");
-        int numbOne = scanner.nextInt();
+        double numbOne = scanner.nextDouble();
 
         System.out.print("Введите второе число: ");
-        int numbTwo = scanner.nextInt();
+        double numbTwo = scanner.nextDouble();
 
         String result = numbOne > numbTwo ? "Первое число больше второго" : "Первое число меньше второго";
         System.out.println(result);
